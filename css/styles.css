@@ -1,0 +1,153 @@
+html {
+	background-color: white;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#Untitled {
+	font-weight: bold;
+	padding: 0px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 0px 30px;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: blue;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	font-size: 18px;
+	padding: 15px;
+}
+
+nav #signup a {
+	background-color: blue;
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#hero {
+	margin-bottom: 30px;
+	border-radius: 10px;
+}
+
+
+#pricing {
+	color: blue;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 15px;
+}
+
+.card {
+	display: grid;
+	grid-template-rows: auto auto auto 1fr auto;
+	border: 2px solid blue;
+	text-align: center;
+	border-radius: 15px;
+}
+
+.card h2 {
+	margin: 0px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.card h3 {
+	margin: 0px;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+.card ul {
+	list-style: disc;
+	list-style-position: outside;
+}
+
+button {
+	background-color: blue;
+	color: white;
+	font-weight: bold;
+	width: 50%;
+	margin: 10px auto;
+	border-radius: 10px;
+}
+
+button:hover {
+	background-color: yellow;
+	cursor: pointer;
+	color: black;
+}
+
+footer {
+	width: 100%;
+	color: blue;
+	text-align: left;
+}
+
+#discount {
+	width: 20%;
+}
+
+.description {
+	margin: 0;
+}
+
+.hidden {
+	display: none;
+}
+
+#burger {
+	display: none;
+}
+
+@media (max-width: 820px) {
+	.cards {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		row-gap: 25px;
+	}
+	nav {
+		display: none;
+	}
+	.navigation.open {
+		display: block;
+	}
+	nav ul {
+		margin-bottom: 10px;
+	}
+	nav li {
+		padding: 8px;
+		font-size: 16px;
+		display: block;
+		text-align: center;
+	}
+	#burger {
+		display: block;
+		background-color: none;
+		size: 2rem;
+	}
+	#discount {
+		width: 40%;
+	}
+}
