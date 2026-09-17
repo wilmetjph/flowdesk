@@ -93,12 +93,6 @@ button {
 	border-radius: 10px;
 }
 
-button:hover {
-	background-color: yellow;
-	cursor: pointer;
-	color: black;
-}
-
 footer {
 	width: 100%;
 	color: blue;
@@ -149,5 +143,13 @@ footer {
 	}
 	#discount {
 		width: 40%;
+	}
+}
+
+@media (hover:hover) {
+	button:hover {
+		background-color: yellow;
+		cursor: pointer;
+		color: black;
 	}
 }
