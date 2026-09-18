@@ -101,6 +101,7 @@ footer {
 
 #discount {
 	width: 20%;
+	margin-top: 20px;
 }
 
 .description {
@@ -144,6 +145,14 @@ footer {
 	#discount {
 		width: 40%;
 	}
+}
+
+.faq_questions {
+	list-style-type: square;
+}
+
+.faq_questions:hover {
+	cursor: pointer;
 }
 
 @media (hover:hover) {
