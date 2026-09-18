@@ -1,6 +1,6 @@
 html {
 	background-color: white;
-	width: 80%;
+	width: 85%;
 	margin: 0 auto;
 }
 
@@ -33,7 +33,7 @@ nav ul {
 nav li {
 	display: inline-block;
 	font-size: 18px;
-	padding: 15px;
+	padding: 5px;
 }
 
 nav #signup a {
@@ -116,6 +116,22 @@ footer {
 	display: none;
 }
 
+.faq {
+	background-color: #F0F0F0;
+	border-radius: 10px;
+	border: 2px solid black;
+	margin-top: 20px;
+}
+
+.faq_questions {
+	list-style-type: square;
+	font-style: italic;
+}
+
+.faq_questions:hover {
+	cursor: pointer;
+}
+
 @media (max-width: 820px) {
 	.cards {
 		display: grid;
@@ -145,14 +161,6 @@ footer {
 	#discount {
 		width: 40%;
 	}
-}
-
-.faq_questions {
-	list-style-type: square;
-}
-
-.faq_questions:hover {
-	cursor: pointer;
 }
 
 @media (hover:hover) {
